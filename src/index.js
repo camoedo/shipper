@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import configureStore from './configureStore';
 import * as serviceWorker from './serviceWorker';
 
-import Root from './components/Root';
+import Root from './containers/Root';
 
 const store = configureStore();
 
