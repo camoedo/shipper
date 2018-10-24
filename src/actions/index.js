@@ -1,4 +1,6 @@
+import * as types from '../constants'
+
 export const showMessage = (message) => ({
-  type: 'SHOW_MESSAGE',
+  type: types.SHOW_MESSAGE,
   message
 });
